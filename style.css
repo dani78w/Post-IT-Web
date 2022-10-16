@@ -3,7 +3,12 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    background: url(fondo.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-size: 130vw 130vh;
 }
 .homeGrid{
     display: grid;
