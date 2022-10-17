@@ -14,7 +14,7 @@ body{
 .homeGrid{
     display: grid;
     grid-template-columns: auto 700px auto;
-    grid-template-rows: 50px 70vh 200px auto;
+    grid-template-rows: 50px 600px 200px auto;
     height:auto;
     
 }
