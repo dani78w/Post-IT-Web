@@ -131,7 +131,7 @@
         font-weight: 700;
         font-size: 128px;
         line-height: 151px;
-        display: flex;
+    
         align-items: center;
         text-align: center;
         letter-spacing: 0.61em;
@@ -205,6 +205,17 @@
         }
 }
     @media only screen and (max-width: 886px){
+        /*displayNone*/
+        .titleCab:nth-child(3) , .titleCab:nth-child(4) {
+            display: none;
+        }
+        .redCabIcon{
+            display: none;
+        }
+        #leftDeco{
+            display: none;
+         }
+
         body{
         
             margin: 0px;
@@ -219,7 +230,7 @@
         .homeGrid{
             display: grid;
             grid-template-columns: auto;
-            grid-template-rows:50px 520px auto ;
+            grid-template-rows:50px auto  auto ;
             height: auto;
         }
     /*cabecera---------------------------------------*/
@@ -237,7 +248,7 @@
             margin: 0px;
             padding: 0px;
             width:100vw;  height: 50px;
-            
+            background-color: rgb(17, 17, 17);
             border-bottom:0px solid #000000;
 
             
@@ -256,12 +267,7 @@
                 background-position: center;
                 
         }
-        .titleCab:nth-child(3) , .titleCab:nth-child(4) {
-            display: none;
-        }
-        .redCabIcon{
-            display: none;
-        }
+        
         .titleCab{
             display: grid;
             font-family: 'Roboto', sans-serif;
@@ -317,26 +323,23 @@
         width: 100%;
         height: 100%;
         grid-template-columns: 100vw;
-        grid-template-rows:25px 600px;
+        grid-template-rows: auto;
         align-items: center;
         justify-items: center;
         
         
     }
-    #leftDeco{
-       transform: rotate(90deg);
-       height: 100vw;
-    }
+    
     .hometext{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20vw;
+        font-size: 30vw;
         line-height: 151px;
         display: flex;
         align-items: center;
         text-align: center;
-        letter-spacing: 0.51em;
+        letter-spacing: 0.21em;
         
         color: #FFFFFF;
         mix-blend-mode: difference;
