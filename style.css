@@ -151,9 +151,13 @@
         padding-left: 4.5vw;
     }
     .text h1{
-        margin-top: 45px;
-        margin-bottom: 45px;
+        margin-top: 15px;
+        margin-bottom: -10px;
         font-size: 57px;
+    }
+    .text h1:first-of-type{
+        margin-top: 95px;
+        margin-bottom: 50px;
     }
     .text p{
         
@@ -351,32 +355,37 @@
         display: grid;
         grid-row:3;
         grid-column: 1;
-        width: 100%;
+        width: 95vw;
         height: fit-content;
         color: honeydew;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 25.18%);
         
         
     }
-    .text h1:first{
-        margin-top: 30vh;
-        text-align: center;
-        margin-bottom: -19px;
+    .text h1{
+        margin-top: 15px;
+        margin-bottom: -10px;
+        font-size: 27px;
+    }
+    .text h1:first-of-type{
+        margin-top: 20vh;
+        margin-bottom: 50px;
         font-size: 57px;
-        
+        text-align: justify;
     }
     .text p{
-        
+        padding-left: 10px;
+        padding-right:10px;
         display: block;
-        width: 100vw;
+        width: auto;
+        
     }
     .textAside{
-        display: block;
-        width: 100vw;
+        display: none
     }
     .text iframe{
-        width:1000px;
-        height:1050px;
+        width:95vw;
+        height:1500px;
         border: 0px;
         
     }
