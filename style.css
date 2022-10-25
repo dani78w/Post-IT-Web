@@ -355,7 +355,7 @@
         display: grid;
         grid-row:3;
         grid-column: 1;
-        width: 95vw;
+        width: 100vw;
         height: fit-content;
         color: honeydew;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 25.18%);
