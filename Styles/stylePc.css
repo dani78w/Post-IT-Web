@@ -14,7 +14,7 @@
     .homeGrid{
         display: grid;
         grid-template-columns: auto 700px auto;
-        grid-template-rows: 113px 674px 164px auto;
+        grid-template-rows: 147px 674px auto;
         height: auto;
     }
     /*cabecera*/
@@ -159,6 +159,7 @@
     
     }
     .text{
+        margin-top: 150px;
         font-family: 'Roboto', sans-serif;
         display: grid;
         width: 100vw;
