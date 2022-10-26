@@ -125,6 +125,13 @@
         margin-left:75vw;
     
     }
+    #parallax{
+        display: grid;
+        grid-column: 1;
+        position: relative;
+        
+        
+    }
     .hometext{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -174,7 +181,6 @@
         border: 0px;
         
     }
-
 
     /*CONTENT*/
         .footer {
