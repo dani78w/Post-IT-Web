@@ -12,7 +12,7 @@
 <body>
     <div class="homeGrid" >
 
-        <div class="cab">
+        <div class="cab" id="cab">
             <div class="button" id="b2"style="width:25px;height: 25px;px;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
             </div>
@@ -28,7 +28,11 @@
                 </svg>
             </div>
             
-            <div class="HomeFloated"></div>
+            <div class="HomeFloated">
+
+                <img id="cityPhone" src="CityPhone.png" alt="" srcset="">
+
+            </div>
         </div>
         
         
@@ -90,9 +94,11 @@
     
     <!-- imports -->
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+        <script src="viewport.js"></script>
     <!-- mis Scripts -->
         <script src="parallax.js"></script>
         <script src="wallpaperEfects.js"></script>
+        <script src="viewHome.js"></script>
     
 </body>
 </html>
