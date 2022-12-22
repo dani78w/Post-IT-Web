@@ -44,7 +44,7 @@
     /*cabecera*/
         .cab{
             position: sticky;
-            top: 0px;
+            top: 10px;
             display: grid;
             grid-column-start: 1;
             grid-column-end: 4;
@@ -62,6 +62,7 @@
             
 
         }
+       
         .iconCab{
                 position: absolute;
                 top: 65px;
@@ -154,15 +155,16 @@
 
     .HomeFloated{
         box-sizing: border-box;
-        
-        position:fixed;
+        display: grid;
+        grid-column: 5;
+        position:sticky;
         width: 20vw;
         height: 40vw;
         border: 2px solid #FFFFFF;
         border-radius: 21px;
+        margin-left: -20vw;
+        margin-top: 10vh;
         
-        margin-top: 20vh;
-        margin-left:75vw;
     
     }
         
