@@ -1,5 +1,6 @@
 
     @media only screen and (max-width: 886px){
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
         body{
             background-color: rgb(255, 251, 0);
            
@@ -97,6 +98,44 @@
             display: grid;
             width: 100vw;
             height: auto;
+        }
+        @keyframes infoWarningAnimation {
+            0%{
+                margin-top: -1000vh;
+            }
+            100%{
+                margin-top: 0vh;
+            }
+        }
+        .infoWarning{
+            display:grid;
+            grid-row: 1;
+            grid-column: 1;
+            z-index: 2;
+            width: 80vw;
+            height: 80vh;
+            margin-top: -1000vh;
+            background-color: rgb(238, 255, 0);
+            animation: infoWarningAnimation 0.7s;
+            animation-play-state: paused;
+            
+        }
+        .infoWarning p{
+                       
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 53px;
+            display: flex;
+            align-items: stretch;
+            color: #000000;
+            flex-wrap: wrap;
+            justify-content: CENTER;
+            align-content: space-around;
+        }
         }
        
     }
