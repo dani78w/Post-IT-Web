@@ -17,5 +17,6 @@ var image = document.getElementById('parallax');
             transition: 'cubic-bezier(0,0,0,1)'
         });
 
+
         
 
