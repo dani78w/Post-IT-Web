@@ -65,6 +65,7 @@
             
             
             
+            
 
         }
        
@@ -96,8 +97,12 @@
             background-position: center;
             transition: transform 0.5s ease-out 100ms;
             filter: invert();
-
+            animation-duration: 0.12s;
             
+            
+        }
+        .titleCab:hover{
+            transform: scale(0.95);
             
         }
         .button{
@@ -124,6 +129,10 @@
         }
         .button:hover{
             transform: scale(1.1);
+        }
+    
+        .redCabIcon{
+            margin-top: 5px;
         }
     /*-----------------------------------------------------*/
     .HomeContent{
