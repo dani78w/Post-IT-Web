@@ -114,11 +114,12 @@
             z-index: 2;
             width: 80vw;
             height: 80vh;
-            margin-top: -1000vh;
-            background-color: rgb(238, 255, 0);
+            margin-top: 0px;
+            background-color: rgba(2, 255, 200, 0.603);
             animation: infoWarningAnimation 0.7s;
             animation-play-state: paused;
             
+           
         }
         .infoWarning p{
                        
