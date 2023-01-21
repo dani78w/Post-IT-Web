@@ -1,5 +1,11 @@
 
 var cab = document.getElementById('cab');
+var cuerpo = document.getElementById('cuerpo')
+
+cuerpo.style.backgroundSize = innerWidth+"px "+innerHeight+"px";
+addEventListener("resize", (event) => {cuerpo.style.backgroundSize = innerWidth+"px "+innerHeight+"px";});
+
+
 var cityPhone = document.getElementById('cityPhone');
 function getScrollPercent() {
     var h = document.documentElement, 
