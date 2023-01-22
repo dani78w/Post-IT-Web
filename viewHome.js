@@ -1,12 +1,26 @@
 
-var cab = document.getElementById('cab');
+
+
+var homeFloated = document.getElementById('homeFloated');
+
+
+
+
 var cuerpo = document.getElementById('cuerpo')
-
+/*corrector de tamaño*/
 cuerpo.style.backgroundSize = innerWidth+"px "+innerHeight+"px";
-addEventListener("resize", (event) => {cuerpo.style.backgroundSize = innerWidth+"px "+innerHeight+"px";});
+homeFloated.style.marginTop = ((innerHeight/190))+"vh";
+var homeWidth=homeFloated.style.width;
+
+addEventListener("resize", (event) => {
+    cuerpo.style.backgroundSize = innerWidth+"px "+innerHeight+"px";
+    homeFloated.style.marginTop = ((innerHeight/190))+"vh";});
 
 
-var cityPhone = document.getElementById('cityPhone');
+
+
+var cab = document.getElementById('cab');
+
 function getScrollPercent() {
     var h = document.documentElement, 
         b = document.body,
@@ -14,7 +28,6 @@ function getScrollPercent() {
         sh = 'scrollHeight';
     return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
 }
-
 document.addEventListener("scroll", (event) => {
    
     

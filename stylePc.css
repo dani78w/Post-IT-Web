@@ -132,7 +132,10 @@
         }
     
         .redCabIcon{
-            margin-top: 5px;
+            margin-top: 1.5px;
+            width: 50px;
+            justify-self: end;
+            margin-right: 30px;
         }
     /*-----------------------------------------------------*/
     .HomeContent{
@@ -213,10 +216,10 @@
         height: fit-content;
         color: honeydew;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 25.18%);
-        padding-left: 4.5vw;
+        
     }
     .text h1{
-        
+        padding-left: 4.5vw;
         margin-bottom: -10px;
         font-size: 57px;
     }
@@ -225,11 +228,12 @@
         margin-bottom: 50px;
     }
     .text p{
-        
+        padding-left: 4.5vw;
         display: inline-block;
         width: 68vw;
     }
     .textAside{
+        padding-left: 4.5vw;
         display: inline-block;
         width: 45vw;
     }
@@ -237,7 +241,7 @@
         width:68vw;
         height:950px;
         border: 0px;
-        
+        padding-left: 4.5vw;
     }
 
     /*CONTENT*/
