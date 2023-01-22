@@ -3,7 +3,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
         body{
             background-color: rgb(255, 251, 0);
-           
+            filter: invert(100%);
             margin: 0px;
         }
        .homeGrid{
@@ -55,13 +55,14 @@
             background-position: center;
             z-index: 0;
             animation: maskAnimation 4s 0s infinite ;
+            
        }
        .war{
             display:grid;
             grid-row: 1;
             grid-column: 1;
             z-index: 1;
-            transform: scale(0.7);
+            transform: scale(0.7);filter: invert(100%);
             
        }
        .warcircle1{
