@@ -9,17 +9,42 @@
     <link rel="stylesheet" href="stylePc.css">
     <link rel="stylesheet" href="universal.css">
 </head>
-<body id="cuerpo" style="">
+<body id="cuerpo" >
+
+    <div class="loader">
+        <svg  id="loader" width="1964" height="988" viewBox="0 0 1964 988" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="mix-blend-mode:difference">
+            <rect y="-6" width="1964" height="994" fill="url(#paint0_linear_101_7)"/>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_101_7" x1="982" y1="-6" x2="982" y2="988" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D9D9D9" stop-opacity="0"/>
+            <stop offset="0.515625" stop-color="white"/>
+            <stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+            </linearGradient>
+            </defs>
+        </svg>        
+        
+    </div>
+
+    <div class="menu">
+        <svg id="menu"width="108" height="110" viewBox="0 0 108 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="108" height="110" rx="54" fill="black"/>
+        </svg>
+        
+
+    </div>
+
     <div class="homeGrid" >
 
         <div class="cab" id="cab">
-            <div class="button" id="b2"style="width:25px;height: 25px;px;">
+            <div class="button" id="b2"style="width:25px;height: 25px;" onclick="openMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
             </div>
             <div style="margin-bottom:2px;font-size: 1.7vw;" class="titleCab" id="b1" >HOME</div>
             <div style="margin-bottom:2px;font-size: 1.7vw;" class="titleCab" id="b1" style="font-size: 20px;margin-top:20px;margin-left: 30px;">ABOUT</div>
             <div  style="margin-bottom:2px;font-size: 1.7vw;" class="titleCab" id="b1" style="font-size: 20px;margin-top:20px;margin-left: 30px;" >CONTACT</div>
-            <div class="redCabIcon">
+            <div class="redCabIcon" id="b3">
                 <svg style="margin-top:4px;" width="25" height="25" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg" >
                     <path d="M35 17.6065C35 7.88032 27.1673 0 17.5 0C7.83266 0 0 7.88032 0 17.6065C0 26.3941 6.3995 33.6781 14.7656 35V22.696H10.3201V17.6065H14.7656V13.7274C14.7656 9.31511 17.3765 6.87789 21.3754 6.87789C23.2905 6.87789 25.2931 7.2215 25.2931 7.2215V11.5521H23.0859C20.9125 11.5521 20.2344 12.9095 20.2344 14.3017V17.6065H25.0878L24.3116 22.696H20.2344V35C28.6005 33.6781 35 26.3941 35 17.6065Z" fill="white"/>
                 </svg>
@@ -138,7 +163,6 @@
     <!-- mis Scripts -->
         
         <script src="parallax.js"></script>
-        <script src="wallpaperEfects.js"></script>
         <script src="viewHome.js"></script>
         <script src="waningInfo.js"></script>
     
