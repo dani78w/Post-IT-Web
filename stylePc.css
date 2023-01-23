@@ -19,7 +19,15 @@
     }
 }
 @media only screen and (min-width: 886px) {
-    
+    @keyframes zoomBackground {
+        0%{
+            background-size: 100vw 100vh;
+        }
+        100%{
+            background-size: 130vw 130vh;
+        }   
+    }
+   
     body{
         filter: invert(100%);
         margin: 0px;
@@ -28,8 +36,11 @@
         background-color: rgb(0, 0, 0);
         background-image: url("FondoCiudad.jpg");
         background-repeat: no-repeat;
-        background-size: auto 100vh;
+        background-size: 130vw 130vh;
         background-attachment: fixed;
+        background-position: center;
+        animation: zoomBackground 5s ;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         
         
     }

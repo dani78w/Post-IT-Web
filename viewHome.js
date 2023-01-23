@@ -12,7 +12,7 @@
     var homeFloated = document.getElementById('homeFloated');
     var cuerpo = document.getElementById('cuerpo')
 
-    cuerpo.style.backgroundSize = "auto "+innerHeight+"px";
+    
     homeFloated.style.marginTop = ((innerHeight/190))+"vh";
     var homeWidth=homeFloated.style.width;
 
@@ -99,7 +99,7 @@ function openMenu(){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    alert("hola")
+    
  }, true);
 
    
