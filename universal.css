@@ -1,2 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/julius-sans-one');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+#miVideo {
+    filter: hue-rotate(185deg);;
+  }

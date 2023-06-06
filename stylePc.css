@@ -2,9 +2,8 @@
     .hometext{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 20vw;
         font-size: 128px;
-        line-height: 151px;
     
         align-items: center;
         text-align: center;
@@ -266,8 +265,8 @@
         position:sticky;
         width: 20vw;
         height: 40vw;
-        border: 2px solid #FFFFFF;
-        border-radius: 21px;
+        /*border: 2px solid #FFFFFF;
+        border-radius: 21px;*/
         margin-left: -20vw;
         margin-top: 10vh;
         overflow: hidden;
@@ -280,17 +279,23 @@
         position: relative;
         
     }
+    #miVideo {
+        width:inherit;
+        height:inherit;
+        border-radius: 21px;
+    
+      }
         
     .hometext{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 128px;
-        line-height: 151px;
+        
     
         align-items: center;
         text-align: center;
-        letter-spacing: 0.61em;
+        letter-spacing: 0.4em;
 
         color: #FFFFFF;
         mix-blend-mode: difference;
